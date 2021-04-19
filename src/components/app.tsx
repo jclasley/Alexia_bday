@@ -11,7 +11,11 @@ const App = () => {
     if (!q) {
       return (<div id="qr"><img src="assets/bday_hey_hey.png" /></div>)
     }
-    return <Question change={checkQuestion} question={q.question} answer={q.answer} />
+    return (
+      <div className="question">
+        <Question change={checkQuestion} question={q.question} answer={q.answer} />
+      </div>
+    )
   }
 
   const checkQuestion = (text: string, answer: string) => {
@@ -30,7 +34,7 @@ const App = () => {
         Happy birthday!
       </div>
       <div className="subhead">
-        As part of your present, here's a little scavenger hunt that you can do while you're at work.
+          Just a fun little quiz that you can do while you're at work &lt;3
       </div>
     </div>
     {start && showQuestion()}

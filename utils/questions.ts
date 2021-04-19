@@ -12,8 +12,11 @@ export const questions = [
     answer: 'The 25th Annual Putnam County Spelling Bee'
   },
   {
+    question: "What show did we watch when we built the blanket fort?",
+    answer: "Stranger Things"
+  },
+  {
     question: "How much I love you",
     answer: "more"
-  }
-
+  },
 ]

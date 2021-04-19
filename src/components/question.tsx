@@ -22,8 +22,8 @@ const Question = ({change, question, answer}: QProps) => {
     <>
     <div className="question">{question}</div>
       <input type="text" value={given} onChange={(e) => changeAnswer(e.target.value)}></input>
-    {correct || 'Try again'}
     <button onClick={() => updateAnswer(given)}>Lock it in</button>
+    {correct || 'Try again'}
     </>
   )
 }
