@@ -4,7 +4,16 @@ export const questions = [
     answer: 'Sto\'s'
   },
   {
-    question: "Where did you first live when we met?",
+    question: "Where did you live when we first met?",
     answer: 'Fishtown'
   },
+  {
+    question: "What was the name of the musical we were coming back from when the old guy yelled at you for gas?",
+    answer: 'The 25th Annual Putnam County Spelling Bee'
+  },
+  {
+    question: "How much I love you",
+    answer: "more"
+  }
+
 ]

@@ -7,18 +7,23 @@ interface QProps {
 }
 const Question = ({change, question, answer}: QProps) => {
   const [given, changeAnswer] = React.useState('');
+  const [correct, toggleCorrect] = React.useState(true);
 
   const updateAnswer = (txt: string) => {
-    changeAnswer(txt);
     if (change(txt, answer)) {
-      changeAnswer('');
+      toggleCorrect(true);
+    } else {
+      toggleCorrect(false)
     };
+    changeAnswer('');
   }
 
   return (
     <>
     <div className="question">{question}</div>
-    <input type="text" value={given} onChange={(e) => updateAnswer(e.target.value)}></input>
+      <input type="text" value={given} onChange={(e) => changeAnswer(e.target.value)}></input>
+    {correct || 'Try again'}
+    <button onClick={() => updateAnswer(given)}>Lock it in</button>
     </>
   )
 }
