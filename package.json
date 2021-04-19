@@ -1,0 +1,31 @@
+{
+  "name": "alexia_bday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jclasley/Alexia_bday.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jclasley/Alexia_bday/issues"
+  },
+  "homepage": "https://github.com/jclasley/Alexia_bday#readme",
+  "dependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.33.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.1.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
