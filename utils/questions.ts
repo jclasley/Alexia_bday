@@ -16,6 +16,31 @@ export const questions = [
     answer: "Stranger Things"
   },
   {
+    question: "What show were we gathering to meet our first few times meeting?",
+    answer: "Game of Thrones"
+  },
+  {
+    question: "What was the first mountain you skied in Colorado?",
+    answer: 'Copper'
+  },
+  {
+    question: "How many New Years have we celebrated together? (in number form)",
+    answer: '3'
+  },
+  {
+    question: "What word did you discover you hate?",
+    answer: 'Slalom'
+  },
+  {
+    question: "What's my second favorite primary color?",
+    answer: 'Green'
+  },
+  {
+    question: "What's my favorite holiday?",
+    answer: "Christmas"
+  },
+  
+  {
     question: "How much I love you",
     answer: "more"
   },
